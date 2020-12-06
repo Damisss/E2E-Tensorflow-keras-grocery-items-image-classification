@@ -1,5 +1,7 @@
 # E2E-Tensorflow-keras-grocery-items-image-classification
 
+![Screenshot](result.png)
+
 This project attempts to implement an end to end image classification using tensorflow keras and onpencv.
 
 The project is using Conda for project environment management.
@@ -12,6 +14,7 @@ To preprocess data
     -  python data_preprocess.py
     
 # Training:
+To perform training
   - python fine_tune.py --model model/grocery.h5
 # Prediction:
 To execute prediction on some sample data
@@ -23,13 +26,14 @@ To execute prediction on some sample data
 Setup the project environment:
 The categories particularly were given as:
 
-Apple
-Avocado
-Banana
-Ginger
-Juice
-Kiwi
-Lemon
-Milk
-Pepper
-Tomato
+- Apple
+- Avocado
+- Banana
+- Ginger
+- Juice
+- Kiwi
+- Lemon
+- Melon
+- Milk
+- Pepper
+- Tomato
